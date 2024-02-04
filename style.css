@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+* {
+  background-color: white;
+}
+.top-container {
+  background-color: white;
+  width: 100%;
+  height: 450px;
+  background-color: FFF7F1;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 0px;
+  font-family: "Dancing Script", cursive;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.middle-container {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+#linkedIn {
+  height: 30px;
+  margin-right: 10px;
+}
+#Instagram {
+  margin-left: 10px;
+  height: 30px;
+}
+.bottom-container {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+.parent {
+  width: 50%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+  margin: 0px auto 100px auto;
+}
+.container {
+  background-color: white;
+}
+.parent2 {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+  margin: 0px auto 100px auto;
+}
+.coding {
+  text-align: left;
+}
+.copyright {
+  text-align: left;
+}
+.logos {
+  text-align: right;
+}
+#vivek {
+  height: 250px;
+  width: fit-content;
+  border-radius: 98%;
+  margin-bottom: 50px;
+}
+#gif {
+  height: 100px;
+}
+.container {
+  margin-bottom: 100px;
+}
+#smoothie {
+  margin-right: 12px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+@media (max-width: 576px) {
+  #smoothie-image {
+    height: 100px;
+  }
+  .typing {
+    height: 100px;
+  }
+  .parent {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    margin: 50px auto 0 auto;
+  }
+  .parent2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 250px 70px;
+    column-gap: 0px;
+    margin: 20px auto 0 auto;
+  }
+  .coding {
+    text-align: center;
+  }
+  #vivek {
+    height: 150px;
+    width: fit-content;
+    border-radius: 90%;
+  }
+  .top-container {
+    height: 300px;
+  }
+  #smoothie {
+    height: 18px;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+  #linkedIn {
+    height: 15px;
+  }
+  #Instagram {
+    height: 15px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #smoothie-image {
+    height: 120px;
+  }
+  #gif {
+    height: 100px;
+  }
+  .parent {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    margin: 50px auto 0 auto;
+  }
+  .coding {
+    text-align: center;
+  }
+  #vivek {
+    height: 200px;
+    width: fit-content;
+    border-radius: 90%;
+  }
+  .top-container {
+    height: 350px;
+  }
+  .parent2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 0px;
+    margin: 20px auto 0 auto;
+  }
+  #smoothie {
+    height: 20px;
+  }
+  .copyright {
+    font-size: 13px;
+  }
+  #linkedIn {
+    height: 18px;
+  }
+  #Instagram {
+    height: 18px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  #smoothie-image {
+    height: 140px;
+  }
+  #gif {
+    height: 120px;
+  }
+  .parent {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    margin: 50px auto 0 auto;
+  }
+  .coding {
+    text-align: center;
+  }
+  .parent2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 0px;
+    margin: 20px auto 0 auto;
+  }
+  #smoothie {
+    height: 22px;
+  }
+  .copyright {
+    font-size: 15px;
+  }
+  #linkedIn {
+    height: 20px;
+  }
+  #Instagram {
+    height: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #smoothie-image {
+    height: 160px;
+  }
+  #gif {
+    height: 180px;
+    margin-right: 20px;
+  }
+  .parent2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 0px;
+    margin: 20px auto 0 auto;
+  }
+  #smoothie {
+    height: 24px;
+  }
+  .copyright {
+    font-size: 18px;
+  }
+  #linkedIn {
+    height: 22px;
+  }
+  #Instagram {
+    height: 22px;
+  }
+}
+@media (min-width: 1201px) {
+  #smoothie-image {
+    height: 200px;
+  }
+  #gif {
+    height: 200px;
+  }
+  .parent2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 0px;
+    margin: 20px auto 0 auto;
+  }
+  #smoothie {
+    height: 26px;
+  }
+  .copyright {
+    font-size: 20px;
+  }
+  #linkedIn {
+    height: 24px;
+  }
+  #Instagram {
+    height: 24px;
+  }
+}
